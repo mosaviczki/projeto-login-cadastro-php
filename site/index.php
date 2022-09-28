@@ -100,7 +100,7 @@
             <img src="img/thor.jpg" class="rounded mx-auto d-block" alt="Responsive image">
           </div>
           <div class="carousel-item">
-            <img src="img/sandman-netflix.jpg" class="rounded mx-auto d-block" alt="Responsive image">
+            <img src="img/sandman.jpg" class="rounded mx-auto d-block" alt="Responsive image">
           </div>
           <div class="carousel-item">
             <img src="img/Continência ao amor_1.jpg" class="rounded mx-auto d-block" alt="Responsive image">

@@ -1,78 +1,162 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    color: white;
-}
 body{
-    background-color: rgb(16, 8, 73);
+    margin: 0px;
+    padding: 0;
+    background-color: rgb(35, 0, 75);
 }
-    
+.main_forms{
+    background: rgb(35, 0, 75);
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.main_forms_cad{
+    background: rgb(35, 0, 75);
+    display: block;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.left_forms{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left_forms > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.right_forms{
+    color:  rgb(35, 0, 75);
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+}
+.body_forms{
+    background-color: rgba(253, 253, 253, 0.388);
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+.body_forms >h1{
+    color:  rgb(35, 0, 75);
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+}
+.body_forms_cad{
+    background-color: rgba(253, 253, 253, 0.388);
+    width: 70%;
+    height: 80%;
+    width: 400px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+.body_forms_cad >h1{
+    color:  rgb(35, 0, 75);
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+}
+#form input.cad{
+    display: block;
+    height: 55px;
+    width: 350px;
+    flex-direction: row;
+    border-radius: 20px;
+    border: 1px solid rgb(35, 0, 75);
+    margin: 25px 20px;
+    background-color: rgba(255,255,255,0.8);
+    font-size: 12pt;
+    font-family: Arial;
+    outline: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+#form input[type=submit]{
+    text-align: center;
+    background-color: rgb(35, 0, 75);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 input{
     display: block;
-    margin: 10px;
     height: 55px;
-    width: 400px;
-    border-radius: 30px;
-    border: 1px solid white;
-    font-size: 16pt;
-    padding: 10px 20px;
+    width: 500px;
+    flex-direction: row;
+    border-radius: 20px;
+    border: 1px solid rgb(35, 0, 75);
+    margin: 50px 50px;
+    background-color: rgba(255,255,255,0.8);
+    font-size: 12pt;
     font-family: Arial;
-    background-color: rgba(255,255,255,0.05);
     outline: none;
-}
-div#corpo_forms{
-    background-color: rgba(43, 41, 41, 0.85);
-    color: white;
-    width: 420px;
-    margin: 150px auto 0px auto;
+    box-sizing: border-box;
     text-align: center;
-    padding: 20px;
-    border-radius: 15px;
 }
-div#corpo_forms_cad{
-    background-color: rgba(43, 41, 41, 0.85);
-    color: white;
-    width: 400px;
-    margin: 70px auto 0px auto;
+input[type=submit]{
     text-align: center;
-    padding: 20px;
-    border-radius: 15px;
+    background-color: rgb(35, 0, 75);
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 a{
-    color: white;
+    text-align: center;
+    color: rgb(35, 0, 75);
     text-decoration: none;
     display: block;
     size: 10px;
 }
+strong{
+    color: rgb(35, 0, 75);
+}
 a:hover{
     text-decoration: underline;
 }
-input[type=submit]{
-    background-color: #ff0008;
-    border: none;
-    cursor: pointer;
-}
 
 ::-webkit-input-placeholder{
-    color: #fff;
+    color: black;
 }
 ::-moz-placeholder{
-    color: #fff;  
+    color: black;  
 }
 ::ms-input-placeholder{
-    color: #fff;
+    color: black;
 }
-div#msg-sucesso{
+
+#msg-sucesso{
+    display: block;
     width: 400px;
     margin: 10px auto;
     padding: 10px;
-    background-color: rgba(50, 205, 50,.3);
+    background-color: rgba(50, 205, 50, 0.7);
     border: 1px solid rgb(34, 139, 34);
+    
 }
-div.msg-erro{
+.msg-erro{
+    display: block;
+    text-align: center;
     width: 400px;
     margin: 10px auto;
     padding: 10px;
-    background-color: rgba(250, 128, 114,.3);
+    background-color: rgba(250, 128, 114, 0.7);
     border: 1px solid rgb(165, 42, 42);
 }
