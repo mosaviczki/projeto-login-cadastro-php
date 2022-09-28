@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+body{
+    background-color: rgb(16, 8, 73);
+}
+    
+input{
+    display: block;
+    margin: 10px;
+    height: 55px;
+    width: 400px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 16pt;
+    padding: 10px 20px;
+    font-family: Arial;
+    background-color: rgba(255,255,255,0.05);
+    outline: none;
+}
+div#corpo_forms{
+    background-color: rgba(43, 41, 41, 0.85);
+    color: white;
+    width: 420px;
+    margin: 150px auto 0px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+div#corpo_forms_cad{
+    background-color: rgba(43, 41, 41, 0.85);
+    color: white;
+    width: 400px;
+    margin: 70px auto 0px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    size: 10px;
+}
+a:hover{
+    text-decoration: underline;
+}
+input[type=submit]{
+    background-color: #ff0008;
+    border: none;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+::-moz-placeholder{
+    color: #fff;  
+}
+::ms-input-placeholder{
+    color: #fff;
+}
+div#msg-sucesso{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50, 205, 50,.3);
+    border: 1px solid rgb(34, 139, 34);
+}
+div.msg-erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250, 128, 114,.3);
+    border: 1px solid rgb(165, 42, 42);
+}
