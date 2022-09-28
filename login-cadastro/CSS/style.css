@@ -48,7 +48,6 @@ body{
     height: 80%;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     padding: 10px 10px;
     border-radius: 15px;
 }
@@ -65,8 +64,10 @@ body{
     width: 400px;
     margin: 0px auto 0px auto;
     text-align: center;
-    padding: 10px 10px;
+    padding: 15px 15px;
     border-radius: 15px;
+    justify-content: center;
+    align-items: center;
 }
 .body_forms_cad >h1{
     color:  rgb(35, 0, 75);
@@ -75,21 +76,24 @@ body{
     text-align: center;
 }
 #form input.cad{
+    justify-content: center;
+    align-items: center;
     display: block;
-    height: 55px;
-    width: 350px;
-    flex-direction: row;
-    border-radius: 20px;
+    height: 10%;
+    width: 80%;
+    border-radius: 15px;
     border: 1px solid rgb(35, 0, 75);
-    margin: 25px 20px;
+    margin: 25px 35px;
     background-color: rgba(255,255,255,0.8);
     font-size: 12pt;
     font-family: Arial;
     outline: none;
     box-sizing: border-box;
     text-align: center;
+
 }
 #form input[type=submit]{
+    width: 80%;
     text-align: center;
     background-color: rgb(35, 0, 75);
     color: white;
@@ -97,11 +101,10 @@ body{
     cursor: pointer;
 }
 input{
-    display: block;
-    height: 55px;
-    width: 500px;
+    height: 10%;
+    width: 80%;
     flex-direction: row;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 1px solid rgb(35, 0, 75);
     margin: 50px 50px;
     background-color: rgba(255,255,255,0.8);
@@ -112,6 +115,7 @@ input{
     text-align: center;
 }
 input[type=submit]{
+    width: 80%;
     text-align: center;
     background-color: rgb(35, 0, 75);
     color: white;
