@@ -7,26 +7,30 @@ $u = new Usuario;
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
 </head>
 
 <body>
     <div class="main_forms_cad">
         <img src="imagem/logo.png" width="200">
-        <div class="body_forms_cad">
-            <h1>CADASTRAR</h1>
-            <form id="form" method="POST">
-                <input class="cad" type="text" name="nome" placeholder="Nome Completo" maxlenght="30">
-                <input class="cad" type="text" name="telefone" placeholder="Telefone" maxlenght="30">
-                <input class="cad" type="email" name="email" placeholder="Usuário" maxlenght="40">
-                <input class="cad" type="password" name="senha" placeholder="Senha" maxlenght="32">
-                <input class="cad" type="password" name="confSenha" placeholder="Confirmar senha" maxlenght="32">
-                <input class="cad" type="submit" value="CADASTRAR">
-                <a href="index.php">Ja possui cadastro?<strong> ENTRAR</strong>
-            </form>
+        <div class="block_forms_cad">
+            <div class="body_forms_cad">
+                <h1>CADASTRAR</h1>
+                <form class"cad" id="form" method="POST">
+                    <input class="cad" type="text" name="nome" placeholder="Nome Completo" maxlenght="30">
+                    <input class="cad" type="text" name="telefone" placeholder="Telefone" maxlenght="30">
+                    <input class="cad" type="email" name="email" placeholder="Usuário" maxlenght="40">
+                    <input class="cad" type="password" name="senha" placeholder="Senha" maxlenght="32">
+                    <input class="cad" type="password" name="confSenha" placeholder="Confirmar senha" maxlenght="32">
+                    <input class="cad" type="submit" value="CADASTRAR">
+                    <a class="cad" href="index.php">Ja possui cadastro?<strong> ENTRAR</strong>
+                </form>
+            </div>
+
         </div>
+
     </div>
-<?php
+    <?php
     //verificar se clicou no botão
     if (isset($_POST['nome'])) {
         $nome = addslashes($_POST['nome']);
@@ -41,11 +45,11 @@ $u = new Usuario;
             if ($u->msgErro == "") {
                 if ($senha == $confirmarSenha) {
                     if ($u->cadastrar($nome, $telefone, $email, $senha)) {
-                        ?>
+    ?>
                         <div id="msg-sucesso">
                             Cadastrado com sucesso. <a Acesse para entrar!></a>
                         </div>
-                        <?php
+                    <?php
                     } else {
                     ?>
                         <div class="msg-erro">
@@ -75,7 +79,7 @@ $u = new Usuario;
     <?php
         }
     }
-?>
+    ?>
 </body>
 
 </html>

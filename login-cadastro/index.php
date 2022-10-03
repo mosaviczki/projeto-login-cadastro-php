@@ -5,7 +5,7 @@ $u = new Usuario;
 <html lang="pt-BR">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
     <meta charset="UTF-8">
     <title>Login</title>
 </head>
@@ -23,7 +23,7 @@ $u = new Usuario;
                     <input type="email" placeholder="Usuário" name=email maxlenght="30">
                     <input type="password" placeholder="Senha" name=senha maxlenght="30">
                     <input type="submit" value="ACESSAR" maxlenght="30">
-                    <a href="cadastrar.php">Ainda não é inscrito?<strong>Cadastre-se</strong>
+                    <a href="cadastrar.php">Ainda não é inscrito? <strong> Cadastre-se</strong>
                 </form>
             </div>
         </div>
