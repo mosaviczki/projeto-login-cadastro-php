@@ -1,130 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;1,700&display=swap');
+
 body{
     margin: 0px;
-    padding: 0;
     background-color: rgb(35, 0, 75);
+    font-family: 'Noto Sans', sans-serif;
 }
+
 .main_forms{
-    background: rgb(35, 0, 75);
     display: flex;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     justify-content: center;
     align-items: center;
 }
 .main_forms_cad{
-    background: rgb(35, 0, 75);
-    display: block;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     justify-content: center;
     align-items: center;
 }
 .left_forms{
-    width: 50%;
-    height: 90%;
+    width: 50vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-.left_forms > img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
 }
 .right_forms{
     color:  rgb(35, 0, 75);
-    width: 50%;
-    height: 90%;
+    width: 50vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px 5px;
+}
+.block_forms_cad{
+    color:  rgb(35, 0, 75);
+    width: 100vw;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
 }
 .body_forms{
     background-color: rgba(253, 253, 253, 0.388);
-    width: 80%;
-    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 10px 10px;
-    border-radius: 15px;
+    padding: 30px 35px;
+    border-radius: 10px;
+}
+.body_forms_cad{
+    background-color: rgba(253, 253, 253, 0.388);
+    width: 35%;
+    height: 90%;
+    text-align: center;
+    padding: 40px 35px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 100 auto;
 }
 .body_forms >h1{
     color:  rgb(35, 0, 75);
     font-weight: 800;
     margin: 0;
-    text-align: center;
-}
-.body_forms_cad{
-    background-color: rgba(253, 253, 253, 0.388);
-    width: 70%;
-    height: 80%;
-    width: 400px;
-    margin: 0px auto 0px auto;
-    text-align: center;
-    padding: 10px 10px;
-    border-radius: 15px;
 }
 .body_forms_cad >h1{
     color:  rgb(35, 0, 75);
     font-weight: 800;
     margin: 0;
+}
+form#POST{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     text-align: center;
 }
-#form input.cad{
-    display: block;
-    height: 55px;
-    width: 350px;
-    flex-direction: row;
-    border-radius: 20px;
-    border: 1px solid rgb(35, 0, 75);
-    margin: 25px 20px;
-    background-color: rgba(255,255,255,0.8);
-    font-size: 12pt;
-    font-family: Arial;
-    outline: none;
-    box-sizing: border-box;
+form#POST[class=cad]{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
     text-align: center;
 }
-#form input[type=submit]{
-    text-align: center;
-    background-color: rgb(35, 0, 75);
-    color: white;
+form > input{
+    width: 80%;
     border: none;
-    cursor: pointer;
-}
-input{
-    display: block;
-    height: 55px;
-    width: 500px;
-    flex-direction: row;
-    border-radius: 20px;
-    border: 1px solid rgb(35, 0, 75);
-    margin: 50px 50px;
+    border-radius: 5px;
     background-color: rgba(255,255,255,0.8);
     font-size: 12pt;
-    font-family: Arial;
-    outline: none;
+    font-family: 'Noto Sans', sans-serif;
     box-sizing: border-box;
-    text-align: center;
+    outline: none;
+    margin: 20px 0px;
+}
+input[class=cad]{
+    width: 80%;
+    border: none;
+    height: 8%;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.8);
+    font-size: 12pt;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    margin: 10px 0px;
 }
 input[type=submit]{
-    text-align: center;
     background-color: rgb(35, 0, 75);
     color: white;
+    width: 80%;
+    height: 8%;
     border: none;
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    margin: 10px 0px;
     cursor: pointer;
 }
-a{
-    text-align: center;
+form > a{
     color: rgb(35, 0, 75);
     text-decoration: none;
-    display: block;
+    display: flex;
+    text-align: center;
     size: 10px;
 }
+strong:hover{
+    text-decoration: underline;
+}
+
 strong{
     color: rgb(35, 0, 75);
 }
