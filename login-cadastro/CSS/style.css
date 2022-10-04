@@ -49,7 +49,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     padding: 30px 35px;
     border-radius: 10px;
 }
@@ -62,17 +61,13 @@ body{
     border-radius: 10px;
     box-sizing: border-box;
     margin: 100 auto;
-=======
     padding: 10px 10px;
     border-radius: 15px;
->>>>>>> fedd659440003e3717caa4c951dbac3281dc5c90
 }
 .body_forms >h1{
     color:  rgb(35, 0, 75);
     font-weight: 800;
     margin: 0;
-<<<<<<< HEAD
-=======
     text-align: center;
 }
 .body_forms_cad{
@@ -86,7 +81,6 @@ body{
     border-radius: 15px;
     justify-content: center;
     align-items: center;
->>>>>>> fedd659440003e3717caa4c951dbac3281dc5c90
 }
 .body_forms_cad >h1{
     color:  rgb(35, 0, 75);
@@ -101,14 +95,14 @@ form#POST{
     width: 100%;
     text-align: center;
 }
-<<<<<<< HEAD
+
 form#POST[class=cad]{
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 60%;
-=======
+}
 #form input.cad{
     justify-content: center;
     align-items: center;
@@ -123,16 +117,14 @@ form#POST[class=cad]{
     font-family: Arial;
     outline: none;
     box-sizing: border-box;
->>>>>>> fedd659440003e3717caa4c951dbac3281dc5c90
     text-align: center;
 
 }
-<<<<<<< HEAD
 form > input{
     width: 80%;
     border: none;
     border-radius: 5px;
-=======
+}
 #form input[type=submit]{
     width: 80%;
     text-align: center;
@@ -148,7 +140,6 @@ input{
     border-radius: 10px;
     border: 1px solid rgb(35, 0, 75);
     margin: 50px 50px;
->>>>>>> fedd659440003e3717caa4c951dbac3281dc5c90
     background-color: rgba(255,255,255,0.8);
     font-size: 12pt;
     font-family: 'Noto Sans', sans-serif;
@@ -169,11 +160,8 @@ input[class=cad]{
     margin: 10px 0px;
 }
 input[type=submit]{
-<<<<<<< HEAD
-=======
     width: 80%;
     text-align: center;
->>>>>>> fedd659440003e3717caa4c951dbac3281dc5c90
     background-color: rgb(35, 0, 75);
     color: white;
     width: 80%;
