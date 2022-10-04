@@ -5,7 +5,7 @@ $u = new Usuario;
 <html lang="pt-BR">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <meta charset="UTF-8">
     <title>Login</title>
 </head>
@@ -13,8 +13,12 @@ $u = new Usuario;
 <body>
     <div class="main_forms">
         <div class="left_forms">
-            <img src="imagem/logo.png" alt="logo" width="100">
-            <img src="imagem/Movie Night-amico.svg" alt="">
+            <div class="logo">
+                <img src="imagem/logo.png" alt="logo" width="300">
+            </div>
+            <div class="imagem">
+                <img src="imagem/Movie Night-amico.svg" alt="img">
+            </div>
         </div>
         <div class=right_forms>
             <div class="body_forms">
@@ -43,11 +47,11 @@ $u = new Usuario;
                 if ($u->logar($email, $senha)) {
                     header("location: ../site/index.php");
                 } else {
-                    ?>
+    ?>
                     <div class="msg-erro">
                         Email e/ou senha incorretos.
                     </div>
-                    <?php
+                <?php
                 }
             } else {
                 ?>

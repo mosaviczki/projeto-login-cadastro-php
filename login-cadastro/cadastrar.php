@@ -7,7 +7,7 @@ $u = new Usuario;
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
 
 <body>
@@ -16,7 +16,7 @@ $u = new Usuario;
         <div class="block_forms_cad">
             <div class="body_forms_cad">
                 <h1>CADASTRAR</h1>
-                <form class"cad" id="form" method="POST">
+                <form class="cad" id="form" method="POST">
                     <input class="cad" type="text" name="nome" placeholder="Nome Completo" maxlenght="30">
                     <input class="cad" type="text" name="telefone" placeholder="Telefone" maxlenght="30">
                     <input class="cad" type="email" name="email" placeholder="Usuário" maxlenght="40">
