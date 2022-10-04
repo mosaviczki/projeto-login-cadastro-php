@@ -1,7 +1,7 @@
 <?php
     session_start();
     if(!isset($_SESSION['id_usuario'])){
-        header("location: index.php");
+        header("location: ../login-cadastro/index.php");
         exit;
     }
 ?>
