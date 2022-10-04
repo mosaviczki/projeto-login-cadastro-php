@@ -35,13 +35,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.block_forms_cad{
-    color:  rgb(35, 0, 75);
-    width: 100vw;
-    height: 85vh;
-    justify-content: center;
-    align-items: center;
-}
+
 .body_forms{
     background-color: rgba(253, 253, 253, 0.388);
     width: 50%;
@@ -54,15 +48,14 @@ body{
 }
 .body_forms_cad{
     background-color: rgba(253, 253, 253, 0.388);
-    width: 35%;
-    height: 90%;
     text-align: center;
-    padding: 40px 35px;
+    align-items: center;
     border-radius: 10px;
     box-sizing: border-box;
-    margin: 100 auto;
-    padding: 10px 10px;
+    padding: 10px 10px 10px 10px;
+    margin: 30% 30%;
     border-radius: 15px;
+    box-sizing: border-box;
 }
 .body_forms >h1{
     color:  rgb(35, 0, 75);
@@ -71,16 +64,16 @@ body{
     text-align: center;
 }
 .body_forms_cad{
+    width: 35%;
+    height: 85%;
     background-color: rgba(253, 253, 253, 0.388);
-    width: 70%;
-    height: 80%;
-    width: 400px;
-    margin: 0px auto 0px auto;
-    text-align: center;
+    margin: 10px auto 10px auto;
     padding: 15px 15px;
     border-radius: 15px;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    box-sizing: border-box;
 }
 .body_forms_cad >h1{
     color:  rgb(35, 0, 75);
@@ -106,72 +99,53 @@ form#POST[class=cad]{
 #form input.cad{
     justify-content: center;
     align-items: center;
-    display: block;
-    height: 10%;
+    height: 6%;
     width: 80%;
-    border-radius: 15px;
+    border-radius: 10px;
+    padding: 10px 10px;
     border: 1px solid rgb(35, 0, 75);
     margin: 25px 35px;
     background-color: rgba(255,255,255,0.8);
     font-size: 12pt;
     font-family: Arial;
     outline: none;
-    box-sizing: border-box;
+    box-sizing: padding-box;
     text-align: center;
-
 }
-form > input{
-    width: 80%;
+input{
+    width: 100%;
+    height: 35px;
+    flex-direction: row;
+    border-radius: 5px;
+    border: 1px solid rgb(35, 0, 75);
+    margin: 50px 50px;
+    background-color: rgba(255,255,255,0.8);
+    font-size: 12pt;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: padding-box;
+    outline: none;
+}
+input[type=submit]{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    background-color: rgb(35, 0, 75);
+    color: white;
     border: none;
     border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    margin: 10px 0px;
+    cursor: pointer;
 }
+
 #form input[type=submit]{
     width: 80%;
     text-align: center;
     background-color: rgb(35, 0, 75);
     color: white;
     border: none;
-    cursor: pointer;
-}
-input{
-    height: 10%;
-    width: 80%;
-    flex-direction: row;
-    border-radius: 10px;
-    border: 1px solid rgb(35, 0, 75);
-    margin: 50px 50px;
-    background-color: rgba(255,255,255,0.8);
-    font-size: 12pt;
-    font-family: 'Noto Sans', sans-serif;
-    box-sizing: border-box;
-    outline: none;
-    margin: 20px 0px;
-}
-input[class=cad]{
-    width: 80%;
-    border: none;
-    height: 8%;
-    border-radius: 5px;
-    background-color: rgba(255,255,255,0.8);
-    font-size: 12pt;
-    font-family: 'Noto Sans', sans-serif;
-    box-sizing: border-box;
-    outline: none;
-    margin: 10px 0px;
-}
-input[type=submit]{
-    width: 80%;
-    text-align: center;
-    background-color: rgb(35, 0, 75);
-    color: white;
-    width: 80%;
-    height: 8%;
-    border: none;
-    border-radius: 5px;
-    font-family: 'Noto Sans', sans-serif;
-    box-sizing: border-box;
-    outline: none;
-    margin: 10px 0px;
     cursor: pointer;
 }
 form > a{
@@ -184,16 +158,14 @@ form > a{
 strong:hover{
     text-decoration: underline;
 }
-
 strong{
     color: rgb(35, 0, 75);
 }
 a:hover{
     text-decoration: underline;
 }
-
 ::-webkit-input-placeholder{
-    color: black;
+    color: rgb(85, 85, 85);
 }
 ::-moz-placeholder{
     color: black;  
