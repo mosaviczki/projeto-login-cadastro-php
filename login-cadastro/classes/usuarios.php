@@ -9,6 +9,7 @@ Class Usuario{
         global $msgErro;
         try{
             $pdo = new PDO("mysql:dbname=".$nome.";host=".$host, $usuario, $senha);
+            return $pdo;
         } catch(PDOException $e){
             $msgErro = $e->getMessage();
         }
@@ -52,4 +53,5 @@ Class Usuario{
         }
     }
 }
+
 ?>
