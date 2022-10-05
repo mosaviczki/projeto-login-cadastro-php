@@ -25,8 +25,8 @@ $u = new Usuario;
 	$result = $stmt->fetchAll();
 	?>
 	<div class="my_account">
+	    <a href="editar_dados.php">Editar meus dados</a><br>
 		<?php
-		
 		    foreach ($result as $_POST) {
 			    echo 'Nome: ' . $_POST['nome'] . '<br>';
 			    echo 'Telefone: ' . $_POST['telefone'] . '<br>';
