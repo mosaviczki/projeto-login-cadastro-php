@@ -1,5 +1,5 @@
 <?php
-require_once 'classes/usuarios.php';
+require_once '../Classes/usuarios.php';
 $u = new Usuario;
 ?>
 <html lang="pt-BR">
@@ -14,10 +14,10 @@ $u = new Usuario;
     <div class="main_forms">
         <div class="left_forms">
             <div class="logo">
-                <img src="imagem/logo.png" alt="logo" width="300">
+                <img src="../Imagens/logo.png" alt="logo" width="300">
             </div>
             <div class="imagem">
-                <img src="imagem/Movie Night-amico.svg" alt="img">
+                <img src="../Imagens/Movie Night-amico.svg" alt="img">
             </div>
         </div>
         <div class=right_forms>
@@ -27,7 +27,7 @@ $u = new Usuario;
                     <input type="email" placeholder="Usuário" name=email maxlenght="30">
                     <input type="password" placeholder="Senha" name=senha maxlenght="30">
                     <input type="submit" value="ACESSAR" maxlenght="30">
-                    <a href="cadastrar.php">Ainda não é inscrito? <strong> Cadastre-se</strong>
+                    <a href="../Cadastrar/cadastrar.php">Ainda não é inscrito? <strong> Cadastre-se</strong>
                 </form>
             </div>
         </div>

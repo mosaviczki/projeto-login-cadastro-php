@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;1,700&display=swap');
+
+/*Organizacão do corpo inteiro*/
+body{
+    margin: 0px;
+    background-color: rgb(35, 0, 75);
+    font-family: 'Noto Sans', sans-serif;
+}
+.main_forms_cad{
+    height: 90%;
+    width: 100%;
+}
+.main_forms_cad > img{
+    width: 10%;
+}
+/* Formulação do bloco do formulario*/
+.block_forms_cad{
+    display: block;
+    width: 70%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.body_forms_cad{
+    /*Cor e borda do formulario*/
+    background-color: rgba(253, 253, 253, 0.388);
+    border-radius: 10px;
+    width: 80%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+/*Distribuição do bloco por meio de display flexivel*/
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+input.cad{
+    /*Estilo de cada input, borda do inut e fonte*/
+    width: 60%;
+    padding: 5;
+    margin: 2% 0% 0% 0%;
+    border-radius: 5px;
+    border: 1px solid rgb(35, 0, 75);
+    background-color: rgba(255,255,255,0.8);
+    font-size: 12pt;
+    font-family: 'Noto Sans', sans-serif;
+    outline: none; 
+    box-sizing: border-box;
+}
+input.cad[type=submit]{
+    width: 60%;
+    text-align: center;
+    background-color: rgb(35, 0, 75);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+}
+.body_forms_cad > h1{
+    /*Mudança de cor do titulo do formulario*/
+    color: rgb(35, 0, 75);
+    text-align: center;
+}
+#msg-sucesso{
+    /*Cria o bloco da mensagem de sucesso*/
+    display: block;
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50, 205, 50, 0.7);
+    border: 1px solid rgb(34, 139, 34);
+}
+.msg-erro{
+    /*cria bloco de mensagem de erro*/
+    display: block;
+    text-align: center;
+    width: 400px;
+    margin: 10px auto;
+    padding: 0px;
+    background-color: rgba(250, 128, 114, 0.7);
+    border: 1px solid rgb(165, 42, 42);
+}
+strong:hover{
+    text-decoration: underline;
+}
+strong{
+    color: rgb(35, 0, 75);
+}
+a{
+    color: rgb(35, 0, 75);
+}
+a:hover{
+    text-decoration: underline;
+}
+::-webkit-input-placeholder{
+    color: rgb(85, 85, 85);
+}
+::-moz-placeholder{
+    color: black;  
+}
+::ms-input-placeholder{
+    color: black;
+}

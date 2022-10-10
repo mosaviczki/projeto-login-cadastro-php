@@ -1,5 +1,5 @@
 <?php
-require_once 'classes/usuarios.php';
+require_once '../Classes/usuarios.php';
 $u = new Usuario;
 ?>
 <html lang="pt-BR">
@@ -12,18 +12,18 @@ $u = new Usuario;
 
 <body>
     <div class="main_forms_cad">
-        <img src="imagem/logo.png" width="200">
+        <img src="../Imagens/logo.png" width="200">
         <div class="block_forms_cad">
             <div class="body_forms_cad">
                 <h1>CADASTRAR</h1>
                 <form class="cad" id="form" method="POST">
                     <input class="cad" type="text" name="nome" placeholder="Nome Completo" maxlenght="30">
-                    <input class="cad" type="text" name="telefone" placeholder="Telefone" maxlenght="30">
-                    <input class="cad" type="email" name="email" placeholder="Usuário" maxlenght="40">
+                    <input class="cad" type="text" name="telefone" placeholder="Telefone (xx xxxx-xxxx)" maxlenght="30">
+                    <input class="cad" type="email" name="email" placeholder="E-mail (ex: abc@email.com)" maxlenght="40">
                     <input class="cad" type="password" name="senha" placeholder="Senha" maxlenght="32">
                     <input class="cad" type="password" name="confSenha" placeholder="Confirmar senha" maxlenght="32">
                     <input class="cad" type="submit" value="CADASTRAR">
-                    <a class="cad" href="index.php">Ja possui cadastro?<strong> ENTRAR</strong>
+                    <a class="form_cad" href="../Login/index.php">Ja possui cadastro?<strong> ENTRAR</strong>
                 </form>
             </div>
 
@@ -47,7 +47,7 @@ $u = new Usuario;
                     if ($u->cadastrar($nome, $telefone, $email, $senha)) {
     ?>
                         <div id="msg-sucesso">
-                            Cadastrado com sucesso. <a Acesse para entrar!></a>
+                            Cadastrado com sucesso. <a class="cad" Acesse para entrar!></a>
                         </div>
                     <?php
                     } else {
