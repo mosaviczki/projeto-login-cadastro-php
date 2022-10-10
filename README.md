@@ -20,7 +20,7 @@ Pagina de login e cadastro.
 git clone https://github.com/mosaviczki/projeto1.git
 ```
 # Pagina de login
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/88504003/192848096-66cb2e98-cf9d-44c8-b5b7-02cd30225d56.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/88504003/194789325-32e7f518-a53f-42fd-9eb4-f292b0c1e0c1.png">
 
 # Pagina de cadastro
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/88504003/192852643-a2fd185c-e4bd-44e8-b9a2-f75144570c71.png">
