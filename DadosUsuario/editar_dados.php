@@ -4,8 +4,8 @@ if (!isset($_SESSION['id_usuario'])) {
 	header("location: ../login-cadastro/index.php");
 	exit;
 }
-include 'classes/usuarios.php';
-require_once 'classes/usuarios.php';
+include '../Classes/usuarios.php';
+require_once '../Classes/usuarios.php';
 $u = new Usuario;
 ?>
 <html lang="pt-BR">

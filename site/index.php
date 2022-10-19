@@ -84,8 +84,8 @@ if (!isset($_SESSION['id_usuario'])) {
               USER
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="../login-cadastro/meus_dados.php">Meus dados</a>
-              <a class="dropdown-item" href="../login-cadastro/sair.php">SAIR</a>
+              <a class="dropdown-item" href="../DadosUsuario/meus_dados.php">Meus dados</a>
+              <a class="dropdown-item" href="../Login/sair.php">SAIR</a>
             </div>
         </ul>
         <form class="form-inline my-2 my-lg-0">

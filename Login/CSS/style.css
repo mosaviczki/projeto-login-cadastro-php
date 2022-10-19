@@ -5,7 +5,7 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 
-/*Separação da main em parte esquerda e direita para formatar separadamente*, e gradiente com animação de fundo/
+/*Separação da main em parte esquerda e direita para formatar separadamente*, e gradiente com animação de fundo*/
 .main_forms{
     background-image: linear-gradient(to left, rgb(5, 1, 69),rgb(107, 0, 164), rgb(104, 0, 44));
     animation: gradiente 4s infinite alternate;
