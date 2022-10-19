@@ -25,7 +25,8 @@ $u = new Usuario;
 	$result = $stmt->fetchAll();
 	?>
 	<div class="my_account">
-        <a href="sair.php">SAIR</a><br>
+        <a href="../Login/sair.php">SAIR</a><br>
+        <a href="meus_dados.php">Voltar</a><br>
 		<?php
 		    foreach ($result as $_POST) {
 			    echo 'Nome: ' . $_POST['nome'] . '<br>';

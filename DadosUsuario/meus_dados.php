@@ -33,7 +33,7 @@ $u = new Usuario;
 			    echo 'Email: ' . $_POST['email'] . '<br>';
 		    }
 		?>
-		<a href="sair.php">SAIR</a>
+		<a href="../Login/sair.php">SAIR</a>
 	</div>
 
 </body>
