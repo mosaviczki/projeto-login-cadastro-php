@@ -1,4 +1,4 @@
-# Projeto 1 Desenvolvimeto web 
+# Projeto de login e cadastro com PHP
 Projeto 1 da disciplina de desenvolvimento web - servidor
 
 Código feito por: 
